@@ -1,12 +1,11 @@
 # Image Classification with Deep Learning
-### Introducation
+### Introduction
 
-Image recognition is a popular technology, which can accurately identify the visual content in the image, and provide a variety of objects, scenes, and concept labels, with the ability of target detection and attribute recognition, to help clients accurately identify and understand the image. The technique has been applied to multiple fields such as text recognition, license plate recognition, and face recognition. The team would explore the topic of computer vision primarily, applying the image classification technique to animal detection. The animal classification could be used in animal management and tag the different animal species, for further application, it could be developed and suitable for animal photo recognition, early childhood education science, and image content analysis, to help people get a better idea of animals and the diversity of nature. The team’s objectives are to design a CNN model with 90% accuracy, which will be accomplished by exploring the architecture of the CNN model and comparing the state-of-the-art pre-trained models and the model with the customized architecture. The team is using TensorFlow to implement the network, for the reason that TensorFlow is a powerful and mature deep learning library with strong visualization capabilities, and there are multiple options for advanced model development. With the data augmentation of the training, the data will expand up the training dataset, therefore, the model can be fitted better. The hyperparameters that learning rate, number of epochs, batch size also are determined experimentally to achieve the highest accuracy. 
+The team is exploring the use of image recognition technology, specifically the application of image classification to animal detection. This technology can accurately identify different animal species, and can be applied in fields such as animal management, early childhood education, and image content analysis. The goal is to design a CNN model with 90% accuracy, using TensorFlow and exploring different CNN architectures and state-of-the-art pre-trained models. Data augmentation and experimental determination of hyperparameters such as learning rate, number of epochs, and batch size will also be used to improve the model's accuracy.
 
 ### Dataset Description
 The team is going to use the “Animal Image Classification Dataset,” a source from Kaggle, which contains 12 classes of animals and at least 1,200 image files for each class.
 
-## Proposal in Proposal folder
 
 #### Dataset Download
 1. dirtecly download from kaggle: https://www.kaggle.com/datasets/piyushkumar18/animal-image-classification-dataset and then unzip the dataset
